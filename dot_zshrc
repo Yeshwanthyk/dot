@@ -85,17 +85,23 @@ fcd() { cd "$(find . -type d -not -path '*/.*' | fzf)" && l; }
 f() { echo "$(find . -type f -not -path '*/.*' | fzf)" | pbcopy }
 fv() { nvim "$(find . -type f -not -path '*/.*' | fzf)" }
 
+# chezmoi
+alias dot="chezmoi cd"
+alias dot-add="chezmoi add"
+alias dot-apply="chezmoi -v apply"
+alias dot-diff="chezmoi diff"
+alias dot-edit="chezmoi edit"
 
 #############################################################
 #                       GIT ALIASES                         #
 #############################################################
-alias gc='git commit'
+alias gc='git commit -m '
 alias gco='git checkout'
 alias ga='git add'
 alias gb='git branch'
 alias gba='git branch --all'
 alias gcp='git cherry-pick'
-alias gpr='git remote prune origin'
+alias gp='git push'
 alias ff='gpr && git pull --ff-only'
 alias grd='git fetch origin && git rebase origin/master'
 alias gbb='git-switchbranch'
