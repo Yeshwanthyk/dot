@@ -3,7 +3,6 @@
 -- Add any additional options here
 
 vim.g.mapleader = ","
-vim.cmd.colorscheme("tokyonight-night")
 
 vim.opt.mousescroll = "ver:2,hor:6"
 

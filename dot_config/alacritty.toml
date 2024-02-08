@@ -106,7 +106,7 @@ semantic_escape_chars = "|:\"' {}()[]<>"
 save_to_clipboard = true
 
 [window]
-opacity = 0.4
+opacity = 0.8
 decorations = "none"
 
 [window.padding]
