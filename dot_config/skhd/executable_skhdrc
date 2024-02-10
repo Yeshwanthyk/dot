@@ -8,7 +8,7 @@
 alt - return : "${HOME}"/.config/skhd/scripts/open_alacritty.sh
 
 # Equalize size of windows
-lctrl + alt - e : yabai -m space --balance
+hyper - e : yabai -m space --balance
 
 ## swap window
 ctrl + cmd - 0x1E : yabai -m window --swap west
@@ -47,10 +47,10 @@ alt - f         : yabai -m window --toggle zoom-fullscreen
 shift + alt - f : yabai -m window --toggle native-fullscreen
 
 ## fast focus desktop
-cmd + alt - x : yabai -m space --focus last
-cmd + alt - z : yabai -m space --focus prev
-cmd + alt - c : yabai -m space --focus next
-cmd + alt - 1 : yabai -m space --focus 1
-cmd + alt - 2 : yabai -m space --focus 2
-cmd + alt - 3 : yabai -m space --focus 3
-cmd + alt - 4 : yabai -m space --focus 4
+# cmd + alt - x : yabai -m space --focus last
+# cmd + alt - z : yabai -m space --focus prev
+# cmd + alt - c : yabai -m space --focus next
+# cmd + alt - 1 : yabai -m space --focus 1
+# cmd + alt - 2 : yabai -m space --focus 2
+# cmd + alt - 3 : yabai -m space --focus 3
+# cmd + alt - 4 : yabai -m space --focus 4
