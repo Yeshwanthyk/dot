@@ -108,7 +108,7 @@ alias dot-edit="chezmoi edit"
 #############################################################
 alias gc='git commit -m '
 alias gco='git checkout'
-alias ga='git add'
+alias ga='git add .'
 alias gst='git status'
 alias gb='git branch'
 alias gba='git branch --all'
